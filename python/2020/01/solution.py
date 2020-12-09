@@ -66,6 +66,8 @@ def product_of_3_entries(puzzle_input):
             continue
         return first * second * third
 
+    raise CatastrophicFailure("This should never have happened!!")
+
 
 def main():
     """
